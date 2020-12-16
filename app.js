@@ -42,7 +42,7 @@ yargs.command({
   }
 })
 
-//Create Remove Command
+//Create List Command
 yargs.command({
   command: 'list',
   describe: 'Listing notes',
@@ -51,7 +51,7 @@ yargs.command({
   }
 })
 
-//Create Remove Command
+//Create Read Command
 yargs.command({
   command: 'read',
   describe: 'Reading a note',
